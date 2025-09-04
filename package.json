@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "atomize": "atomizer -o ./dist/output.css --watch index.html"
+  },
+  
+  "dependencies": {
+    "atomizer": "^3.30.0"
+  }
+}
