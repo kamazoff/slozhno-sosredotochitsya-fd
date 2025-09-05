@@ -111,7 +111,6 @@
   font-family: var(--main-font);
   background-color: transparent;
   color: var(--btn-color);
-  border: transparent;
   cursor: pointer;
   block-size: 26px;
   inline-size: 70px;
@@ -251,6 +250,8 @@
 
   .title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    margin-inline-start: -20px;
+    margin-block-start: 173px;
   }
 
   
@@ -277,11 +278,7 @@
     right: 31px;
   }
 
-  .title {
-    margin-inline-start: -20px;
-    margin-block-start: 173px;
-  }
-
+  
   .main {
     padding: 60px 20px 9px;
   }
@@ -370,7 +367,6 @@
 
   .footer {
     padding: 20px;
-    min-block-size: 1024px;
     min-block-size: 1024px;
   }
 
