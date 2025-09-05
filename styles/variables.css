@@ -4,7 +4,7 @@
   --background-image: url(../images/cover-image-dark.png);
   --main-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-size-description: 18px;
-  --font-weight-h2: bold;
+  --title-font-weight: bold;
   --title-color: #DB00FF;
   --accent-color: #FF0070;
   --title-decor: #FF0070;
@@ -18,6 +18,3 @@
   --border-color-hover: #FF007040;
 }
 
-.header__text-decorated {
-  display: block;
-}

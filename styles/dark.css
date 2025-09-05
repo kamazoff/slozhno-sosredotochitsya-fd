@@ -20,9 +20,32 @@
   --decorated-color: #FF0070;
   --border-color: #FF0070;
   --border-color-hover: #FF007040;
-}
-.header__text-decorated {
-  display: block;
 
+  .header__text-decorated {
+  display: block;
+  }
 }
+
+
+ @media (prefers-color-scheme: dark) {
+  :root {
+  --title-color: #DB00FF;
+  --accent-color: #FF0070;
+  --title-decor: #FF0070;
+  --title-decor-color: #000028;
+  --main-bg-color: #000028;
+  --footer-bg-color: #000028;
+  --color-description: #F1B2CE;
+  --shadow-color: #FF0070;
+  --decorated-color: #FF0070;
+  --border-color: #FF0070;
+  --border-color-hover: #FF007040;
+  
+  .header__text-decorated {
+  display: block;
+  }
+ }
+}
+
+
 
