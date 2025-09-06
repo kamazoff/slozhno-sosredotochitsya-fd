@@ -222,7 +222,7 @@
   align-items: center;
   justify-content: center;
   padding-inline: 10px;
-  background-color: var(--footer-bg-color, #000028);
+  /* background-color: var(--footer-bg-color, #000028); */
 }
 
 .footer__title {

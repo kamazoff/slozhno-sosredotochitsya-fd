@@ -26,9 +26,27 @@
 .header__text-decorated {
   display: none;
 }
-
 }
 
-
+ @media (prefers-color-scheme: light) {
+  :root {
+  --background-image: url(../images/cover-image-light.png);
+  --title-color: #FFC2E6;
+  --accent-color: #FF8DCB;
+  --title-decor: #353430;
+  --main-bg-color: #FFEFF6;
+  --btn-color: #353430;
+  --shadow-color: #FF8DCB;
+  --color-description: #353430;
+  --decorated-color: #353430;
+  --footer-bg-color: #FFEFF6;
+  --border-color: #353430;
+  --border-color-hover: #35343040;
+  
+  .header__text-decorated {
+  display: none;
+  }
+ }
+}
 
  

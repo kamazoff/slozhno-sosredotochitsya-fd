@@ -9,6 +9,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --background-image: url(../images/cover-image-dark.png);
   --title-color: #DB00FF;
   --accent-color: #FF0070;
   --title-decor: #FF0070;
@@ -20,6 +21,7 @@
   --decorated-color: #FF0070;
   --border-color: #FF0070;
   --border-color-hover: #FF007040;
+  --btn-color: #FF0070;
 
   .header__text-decorated {
   display: block;
@@ -27,25 +29,7 @@
 }
 
 
- @media (prefers-color-scheme: dark) {
-  :root {
-  --title-color: #DB00FF;
-  --accent-color: #FF0070;
-  --title-decor: #FF0070;
-  --title-decor-color: #000028;
-  --main-bg-color: #000028;
-  --footer-bg-color: #000028;
-  --color-description: #F1B2CE;
-  --shadow-color: #FF0070;
-  --decorated-color: #FF0070;
-  --border-color: #FF0070;
-  --border-color-hover: #FF007040;
-  
-  .header__text-decorated {
-  display: block;
-  }
- }
-}
+
 
 
 
